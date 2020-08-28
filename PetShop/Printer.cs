@@ -194,7 +194,6 @@ namespace PetShop.UI
             {
                 Console.WriteLine("You need to select a number between 1 and 9");
             }
-
             return selection;
         }
 
@@ -206,12 +205,11 @@ namespace PetShop.UI
                     Console.WriteLine($"\nId: {pet.Id} " + $"\nName: {pet.Name} " +
                                       $"\nType: {pet.Type} " +
                                       $"\nBirthdate: {pet.BirthDate} " +
-                                      $"\nSoldDate: {pet.SoldDate}" +
+                                      $"\nSold date: {pet.SoldDate}" +
                                       $"\nColor: {pet.Color}" +
-                                      $"\nPreviousOwner: {pet.PreviousOwner}" +
+                                      $"\nPrevious Owner: {pet.PreviousOwner}" +
                                       $"\nPrice: {pet.Price}");
                 }
-
                 Console.WriteLine("\n");
             }
 
