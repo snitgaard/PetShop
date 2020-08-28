@@ -1,2 +1,3 @@
 # PetShop
- EASV C# Introduction Assignment - Pet Shop 2020
+ EASV introduction to C#. Compulsory Assignment - Pet Shop 2020
+ 
